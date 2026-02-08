@@ -1,0 +1,23 @@
+# Virtual environments
+.venv/
+.venv-1/
+.venv312/
+
+# Datasets and cache
+app/data/italian_parkinsons_hf/
+
+# Personal audio recordings
+app/recordings/
+
+# Large model artifacts (optional, keep local for reproducibility)
+app/models/*.joblib
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code settings
+.vscode/
+.venv-1
